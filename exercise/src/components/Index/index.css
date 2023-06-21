@@ -1,0 +1,82 @@
+.img-furia {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.imgs-moletom {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 30%;
+    height: 70vh;
+    align-items: center;
+}
+.imgs-true{
+    display: flex;
+    justify-content: space-evenly;
+}
+.preco{
+    display: inline-flex;
+    justify-content: space-evenly;
+
+}
+.fig-preco{
+    width: 220.7px;
+    text-align: center;
+}
+.imgs-moletom .back {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.front:hover .back{
+    display: inline;
+}
+.front:hover .front{
+    display: none;
+}
+.img-moletom-self {
+    justify-self: center;
+}
+.h1-about{
+    margin-top: 2vh;
+    padding: 1rem;
+    text-align: center;
+}
+.div-about{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.div-panthera{
+    width: 80vw;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.ref_div{
+    height: 90vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+}
+@media (max-width: 600px){
+    .ref_div{
+        display: block;
+    }
+    .div-panthera{
+        display: block;
+    }
+    .imgs-true{
+        display: block;
+    }
+    .preco{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+
+    }
+}

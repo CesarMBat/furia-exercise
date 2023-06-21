@@ -1,0 +1,40 @@
+.header{
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    z-index: 1;
+    border-bottom: 1px inset #00000049;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff49;
+    align-items: center;
+}
+.h1-header{
+    cursor: pointer;
+    margin-left: 2vw;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom-width 0.5s ease;
+    transition: border-bottom-color 0.5s ease;
+}
+.h1-header:hover{
+    border-bottom-width: 1px;
+    border-bottom-color: #000;
+}
+.ul-header{
+    list-style-type: none;
+    display: inline-flex;
+}
+.li-header{
+    margin-left: 2rem;
+    margin-right: 5rem;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom-width 1s ease;
+    transition: border-bottom-color 1s ease;
+}
+.li-header:hover{
+    border-bottom-width: 1px;
+    border-bottom-color: #000;
+}
